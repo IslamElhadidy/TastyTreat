@@ -1,0 +1,23 @@
+.filter__all__foods input,
+.filter__all__foods select {
+    width: 70%;
+    padding: 3px 10px;
+    font-size: 13px;
+    color: rgb(97, 97, 100);
+    border: 1px solid rgb(210, 193, 193);
+    outline: none;
+}
+.filter__all__foods select ,
+.filter__all__foods select option {
+    cursor: pointer;
+}
+.filter__all__foods .search__bar {
+    position: relative;
+}
+.filter__all__foods i {
+    position: absolute;
+    left: 420px;
+    font-size: 13px;
+    top: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+.feat__info > p {
+    color: var(--primary_color);
+    font-weight: 500;
+}
+.feat__info h3 {
+    font-weight: bold;
+}
+.feat__info h3 span {
+    color: var(--primary_color);
+}
+.feat__spans span {
+    color: #5c5858;
+}
+@media (max-width:600px) {
+    .feat__spans span {
+        font-size: 12px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+}
+.feat_content {
+    padding-top: 80px;
+}
+.feat_content img {
+    width: 60px;
+    height: 60px;
+}
+.feat_content h4 {
+    font-size: 16px;
+    font-weight: bolder;
+}
+@media (max-width:767px) {
+    .feat_content p {
+        margin: o auto;
+        width: 80%;
+    }
+}
+.feat_content:hover img {
+    animation: movex 2s alternate both infinite;
+}
+@keyframes movex {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(20px);
+    }
+}

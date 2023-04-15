@@ -1,0 +1,119 @@
+.testimonial h6 {
+  font-weight: bold;
+  color: var(--primary_color);
+  padding-bottom: 10px;
+}
+
+.testimonial p span {
+  color: var(--primary_color);
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slider {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .slider-box {
+    /* background-color: var(--bg-color); */
+    /* padding: 20px 60px; */
+    border-radius: 20px;
+    color: black !important;
+  }
+  @media (max-width:576px) {
+    .slider-box {
+      padding: 40px 20px 20px 20px;
+    }
+  }
+  .slider-box p {
+    font-size: 12px;
+    text-align: start;
+    width: 100%;
+    font-style: italic;
+    line-height: 30px;
+  }
+  @media (max-width:576px) {
+    .slider-box p {
+      width: 100%;
+    }
+  }
+  .slider-box h6 {
+    text-align: start;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  .slider-box h3 {
+    text-align: start;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  .slider-box span {
+    position: absolute;
+    right:70px;
+    font-size: 20px;
+    top: 150px;
+    opacity: 0.3;
+    font-weight: bold;
+  
+    
+  }
+  @media (max-width:576px) {
+    .slider-box span {
+      top: 260px;
+    }
+  }
+   .slider-svg svg {
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+  }
+  @media (max-width:576px) {
+    .slider-svg svg {
+  
+      font-size: 30px;
+  
+    }
+  }
+  .swiper-button-next:after,.swiper-button-prev:after {
+    display: none;
+  }
+  
+
+  .slider-box img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: var(--primary_color) !important;
+  }
+  .test-img {
+    animation: movey 2s infinite alternate both;
+  }
+  @keyframes movey {
+    0%{
+      transform: translateY(0px);
+    }
+    100%{
+      transform: translateY(-20px);
+    }
+  }

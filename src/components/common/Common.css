@@ -1,0 +1,12 @@
+.common {
+    background: linear-gradient(#21224555,#21224555),url('../../assets/images/banner.jpg') no-repeat center;
+    background-size: cover;
+    padding: 80px 0;
+
+}
+.common .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

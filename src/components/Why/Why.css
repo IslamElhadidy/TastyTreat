@@ -1,0 +1,41 @@
+.why {
+    overflow: hidden;
+}
+.why h2 {
+    font-weight: bold;
+}
+.why h2 span {
+    color: var(--primary_color);
+}
+.why  p {
+    color: rgb(92, 88, 88);
+}
+.features__why i {
+    background-color: transparent;
+    border: 1px solid var(--primary_color);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: var(--primary_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features__why span {
+    font-size: 15px;
+    font-weight: 500;
+}
+.features__why p {
+    font-size: 13px;
+}
+.why img {
+    animation: movex 2s alternate infinite both;
+}
+@keyframes movex {
+    0% {
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(20px);
+    }
+}

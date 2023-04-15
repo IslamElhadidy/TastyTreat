@@ -1,0 +1,32 @@
+
+.error {
+    position: relative;
+}
+
+.error img {
+    max-width: 100%;
+}
+
+.error  button  {
+    margin-top: 50px;
+    transform: translate(11px, -64px);
+    position: absolute;
+    font-size: 20px;
+    border: 1px solid var(--primary_color);
+    padding: 4px 20px;
+    border-radius: 6px;
+    background: var(--primary_color);
+    transition: 0.2s all;
+    position: relative;
+}
+
+@media (max-width:450px) {
+    .error  button {
+        transform: translate(11px, -46px) !important;
+    }
+}
+
+.error  button a {
+    text-decoration: none;
+    color:white;
+}

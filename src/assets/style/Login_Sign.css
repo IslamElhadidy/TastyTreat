@@ -1,0 +1,45 @@
+.login__page ,
+.signup__page{
+    background-color: #fde4e4;
+    padding: 14px;
+    /* box-shadow: 0 0 10px black; */
+    width: 350px;
+    margin: 60px auto;
+    border-radius: 4px;
+}
+
+.login__page input ,
+.signup__page input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--primary_color);
+    background-color: transparent;
+    outline: none;
+    padding: 3px 2px;
+    font-size: 13px;
+    color: rgb(129, 118, 118);
+}
+.login__page button ,
+.signup__page button{
+    margin-top: 30px;
+    border: none;
+    background-color: var(--primary_color);
+    border-radius: 6px;
+    padding: 4px 20px;
+
+}
+.login__page button a ,
+.signup__page button a  {
+    color: white !important;
+    text-decoration: none;
+}
+.signup_btn ,
+.login_btn {
+    margin-top: -40px;
+    padding-bottom: 40px;
+}
+.signup_btn a ,
+.login_btn a {
+    text-decoration: none;
+
+}

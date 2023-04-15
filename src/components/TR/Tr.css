@@ -1,0 +1,13 @@
+@media (max-width:767px) {
+    tr img {
+        width: 30px !important;
+    }
+}
+/* @media (max-width:509px) {
+    .title {
+        font-size: 12px;
+    }
+} */
+tr td {
+    white-space: nowrap;
+}

@@ -1,0 +1,78 @@
+.footer {
+    background-color: #fde4e4;
+    padding: 60px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+.delivert_time .f-time span:first-child ,
+.delivert_time .s-time span:first-child {
+    font-weight: 500;
+}
+
+.phone p,
+.email p {
+    font-weight: 500;
+}
+.newsletter .input {
+    position: relative;
+}
+.newsletter i {
+    position: absolute;
+    right: 12px;
+    font-size: 20px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+@media (max-width:838px) {
+    .newsletter i {
+       right: 2px;
+    }
+}
+.newsletter input {
+    width: 100%;
+    padding: 4px 5px;
+    font-size: 15   px;
+    border: none;
+    border-bottom: 1px solid red;
+    outline: none;
+    background: transparent;
+}
+@media (max-width:991px) {
+    .socials {
+        margin-top: -10px;
+    }
+}
+@media (max-width:991px) {
+    .socials {
+       margin-top: 0;
+    }
+}
+@media (max-width:815px) {
+    .copy_write {
+       flex-direction: column !important;
+    }
+}
+
+.socials a{
+    text-decoration: none;
+}
+.socials i {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+}
+.socials i:hover {
+    transform: translateY(-10px) rotate(360deg);
+}

@@ -1,0 +1,32 @@
+.categories {
+    padding-bottom: 40px;
+}
+.category {
+    background-color: var(--bg-color);
+    padding: 20px 20px;
+    transition: 0.5s all;
+}
+.category:hover {
+    transform: translatey(-20px);
+}
+@media (max-width:576px) {
+    .category:hover {
+        transform: translatey(0px);
+    }
+}
+.category img {
+    width: 50px;
+}
+.category:hover img {
+    animation: rotate 10s infinite alternate both;
+    
+}
+
+@keyframes rotate {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    100% {
+        transform: scale(1.1) rotate(360deg);
+    }
+}
